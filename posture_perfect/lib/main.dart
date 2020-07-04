@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:poster_perfect/screens/homepage.dart';
+import 'package:poster_perfect/screens/welcomepage.dart';
 
 void main() {
   runApp(MyApp());
@@ -36,7 +36,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   Widget build(BuildContext context) {
-    return HomePage();
+    return Welcome();
   }
 }
 

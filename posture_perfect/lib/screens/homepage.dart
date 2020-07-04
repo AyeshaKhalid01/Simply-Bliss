@@ -16,6 +16,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(elevation: 1.0,
+        backgroundColor: Colors.greenAccent,
       ),
       body: IndexedStack(
         index: _currentIndex,
@@ -35,23 +36,23 @@ class _HomePageState extends State<HomePage> {
           currentIndex: _currentIndex,
           items: [
             BottomNavigationBarItem(
-              icon: Icon(Icons.assistant,color: Theme.of(context).primaryColor,),
-              backgroundColor: Theme.of(context).accentColor,
+              icon: Icon(Icons.library_music,color: Theme.of(context).primaryColor,),
+              backgroundColor: Colors.greenAccent[100],
               title: Text('Music',style: TextStyle(color: Theme.of(context).primaryColor),),
             ),
             BottomNavigationBarItem(
-                icon: Icon(Icons.info,color: Theme.of(context).primaryColor),
-                backgroundColor: Theme.of(context).accentColor,
+                icon: Icon(Icons.trip_origin,color: Theme.of(context).primaryColor),
+                backgroundColor: Colors.greenAccent[100],
                 title: Text('Activities',style: TextStyle(color: Theme.of(context).primaryColor),)
             ),
             BottomNavigationBarItem(
-                icon: Icon(Icons.note,color: Theme.of(context).primaryColor),
-                backgroundColor: Theme.of(context).accentColor,
+                icon: Icon(Icons.change_history,color: Theme.of(context).primaryColor),
+                backgroundColor: Colors.greenAccent[100],
                 title: Text('Meditation',style: TextStyle(color: Theme.of(context).primaryColor),)
             ),
             BottomNavigationBarItem(
-                icon: Icon(Icons.scanner,color: Theme.of(context).primaryColor),
-                backgroundColor: Theme.of(context).accentColor,
+                icon: Icon(Icons.camera_front,color: Theme.of(context).primaryColor),
+                backgroundColor: Colors.greenAccent[100],
                 title: Text('Posture Correct',style: TextStyle(color: Theme.of(context).primaryColor),)
             ),
           ]),

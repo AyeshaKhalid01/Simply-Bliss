@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:poster_perfect/models/musiccategory.dart';
-import 'package:poster_perfect/screens/musiccardclickedpage.dart';
+import 'package:posture_perfect/models/musiccategory.dart';
+import 'package:posture_perfect/screens/musiccardclickedpage.dart';
 
 class MusicPage extends StatelessWidget {
   @override

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:poster_perfect/screens/welcomepage.dart';
+import 'package:posture_perfect/screens/welcomepage.dart';
 
 void main() {
   runApp(MyApp());

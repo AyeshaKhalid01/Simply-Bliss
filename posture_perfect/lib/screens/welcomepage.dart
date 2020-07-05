@@ -1,7 +1,7 @@
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:poster_perfect/screens/homepage.dart';
+import 'package:posture_perfect/screens/homepage.dart';
 
 class Welcome extends StatefulWidget{
   @override

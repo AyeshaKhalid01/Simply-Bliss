@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:poster_perfect/screens/activitiespage.dart';
-import 'package:poster_perfect/screens/meditationpage.dart';
-import 'package:poster_perfect/screens/musicpage.dart';
-import 'package:poster_perfect/screens/posturecorrectpage.dart';
+import 'package:posture_perfect/screens/activitiespage.dart';
+import 'package:posture_perfect/screens/meditationpage.dart';
+import 'package:posture_perfect/screens/musicpage.dart';
+import 'package:posture_perfect/screens/posturecorrectpage.dart';
 
 class HomePage extends StatefulWidget {
   @override

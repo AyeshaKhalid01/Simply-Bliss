@@ -2,7 +2,7 @@ import 'dart:async';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:poster_perfect/models/musiccategory.dart';
+import 'package:posture_perfect/models/musiccategory.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 
 class CategorySelectPage extends StatelessWidget{
